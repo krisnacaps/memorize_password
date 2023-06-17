@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memorize Password</title>
+    <!-- css code file -->
+    <link rel="stylesheet" href="./src/style/global.css"/>
+</head>
+<body>
+
+    <figure class="alert-box" id="popup">
+        <div class="box__body">
+            Notification Test!
+        </div>
+    </figure>
+
+    <div class="wrap-container">
+        <div class="container">
+            
+            <div class="set-password">
+                <h2>Memorize Password</h2>
+                <input type="text" id="inputText" placeholder="Set your password here">
+                <div class="button-action">
+                    <button id="setPass" name="submit">SET</button>
+                    <button id="resetPass" name="submit">RESET</button>
+                </div>
+            </div>
+
+            <div class="test-type">
+                <input type="password" id="checkPass" placeholder="Test your password here">
+                <div class="seePass">
+                    <input type="checkbox" id="checkBox">
+                    <span>Show password</span>
+                </div>
+
+            <div class="feature">
+                <p id="log"></p>
+            </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- javascript code file  -->
+    <script src="./src/js/index.js"></script>
+    
+</body>
+</html>
